@@ -1,6 +1,6 @@
 use std::mem;
 
-fn main() {
+fn fundamental_data_types() {
   println!("Hello, world!");
 
   let a:u8 = 123; // unsigned integer 8-bits
@@ -35,4 +35,8 @@ fn main() {
   let f = 4 > 0;
   println!("f = {}", f);
 
+}
+
+fn main() {
+  fundamental_data_types();
 }
