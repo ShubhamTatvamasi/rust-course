@@ -22,3 +22,4 @@ Create a new project
 ```bash
 cargo new hello_world --bin
 ```
+> We’re passing `--bin` because we’re making a binary program: if we were making a library, we’d pass `--lib`.
