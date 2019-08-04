@@ -29,6 +29,11 @@ For testing your app run:
 ```bash
 cargo test
 ```
+
+Create documentation for your library:
+```bash
+rustdoc lib.rs
+```
 ---
 
 Use `rustc` command to just compile the file
