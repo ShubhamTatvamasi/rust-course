@@ -14,6 +14,11 @@ impl Printable for String {
   }
 }
 
+// Dynamic Dispatch
+// fn print_it(z: &Printable) {
+//   println!("{}", z.format());
+// }
+
 fn print_it<T: Printable>(z: T) {
   println!("{}", z.format());
 }
@@ -24,6 +29,10 @@ fn main() {
 
   // println!("{}", a.format());
   // println!("{}", b.format());
+
+  // Dynamic Dispatch
+  // print_it(&a);
+  // print_it(&b);
 
   print_it(a);
   print_it(b);
