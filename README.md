@@ -24,6 +24,11 @@ Release your files with optimizations turned on:
 cargo build --release
 ```
 > puts the resulting binary in `target/release`
+
+For testing your app run:
+```bash
+cargo test
+```
 ---
 
 Use `rustc` command to just compile the file
